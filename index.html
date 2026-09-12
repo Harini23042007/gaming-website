@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GameZone - Gaming Website</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="logo">🎮 GameZone</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#games">Games</a>
+        </nav>
+
+    </header>
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <h1>LEVEL UP YOUR GAMING EXPERIENCE 🎮</h1>
+
+            <p>
+                Discover exciting games and explore your next favorite adventure.
+            </p>
+
+            <a href="#games" class="hero-btn">
+                Explore Games
+            </a>
+
+        </div>
+
+    </section>
+    <section id="games" class="games-section">
+
+        <h2>🎮 Featured Games</h2>
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search games..."
+            >
+
+        </div>
+
+        <div class="game-container" id="gameContainer">
+            <div class="game-card" data-name="Minecraft">
+
+                <img src="images/game1.jpg" alt="Minecraft">
+
+                <h3>Minecraft</h3>
+
+                <p>Adventure</p>
+
+                <button onclick="showGameDetails('Minecraft')">
+                    ▶ Play
+                </button>
+
+            </div>
+            <div class="game-card" data-name="PUBG">
+
+                <img src="images/game2.jpg" alt="PUBG">
+
+                <h3>PUBG</h3>
+
+                <p>Battle Royale</p>
+
+                <button onclick="showGameDetails('PUBG')">
+                    ▶ Play
+                </button>
+
+            </div>
+
+
+            <div class="game-card" data-name="Asphalt 9">
+
+                <img src="images/game3.jpg" alt="Asphalt 9">
+
+                <h3>Asphalt 9</h3>
+
+                <p>Racing</p>
+
+                <button onclick="showGameDetails('Asphalt 9')">
+                    ▶ Play
+                </button>
+
+            </div>
+
+
+            <div class="game-card" data-name="Among Us">
+
+                <img src="images/game4.jpg" alt="Among Us">
+
+                <h3>Among Us</h3>
+
+                <p>Multiplayer</p>
+
+                <button onclick="showGameDetails('Among Us')">
+                    ▶ Play
+                </button>
+
+            </div>
+
+
+            <div class="game-card" data-name="Fortnite">
+
+                <img src="images/game5.jpg" alt="Fortnite">
+
+                <h3>Fortnite</h3>
+
+                <p>Action</p>
+
+                <button onclick="showGameDetails('Fortnite')">
+                    ▶ Play
+                </button>
+
+            </div>
+
+
+            <div class="game-card" data-name="Subway Surfers">
+
+                <img src="images/game6.jpg" alt="Subway Surfers">
+
+                <h3>Subway Surfers</h3>
+
+                <p>Endless Runner</p>
+
+                <button onclick="showGameDetails('Subway Surfers')">
+                    ▶ Play
+                </button>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+
+        <p>© 2026 GameZone | Simple Gaming Website</p>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
